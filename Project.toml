@@ -1,0 +1,27 @@
+name = "GPTCodingTools"
+uuid = "8f810de1-716b-44aa-a8d5-26d4737c8c2f"
+authors = ["J S <49557684+svilupp@users.noreply.github.com>"]
+version = "0.0.37"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+JuliaSyntax = "70703baa-626e-46a2-a12c-08ffd08c73b4"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
+OpenAI = "e9f21f70-7185-4079-aca2-91159181367c"
+StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+JuliaSyntax = "0.4.3"
+OpenAI = "0.8"
+Suppressor = "0.2"
+julia = "1.8,1.9"
+DataFrames = "1"
